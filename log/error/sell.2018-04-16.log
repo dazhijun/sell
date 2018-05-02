@@ -1,0 +1,117 @@
+2018-04-16 15:01:40,966 - 【登录校验】Cookie中查不到token
+2018-04-16 15:01:40,969 - 【卖家错误处理】错误：登录过期
+2018-04-16 15:02:03,981 - 【登录校验】Cookie中查不到token
+2018-04-16 15:02:03,982 - 【卖家错误处理】错误：登录过期
+2018-04-16 15:02:04,609 - ==========redis_token:06ae588e-6c97-47a2-859f-a48eccfd951a============
+2018-04-16 15:02:05,494 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:02:38,874 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:02:39,345 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:02:40,981 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:02:41,370 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:02:48,694 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:02:48,701 - 【登录校验】redis中查不到token
+2018-04-16 15:02:48,702 - 【卖家错误处理】错误：登录过期
+2018-04-16 15:02:48,961 - ==========redis_token:2c406b94-6dc6-4093-a121-5f49ea79e00d============
+2018-04-16 15:02:49,311 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:03:10,272 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:03:10,553 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:03:12,191 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:11:23,519 - 【登录校验】Cookie中查不到token
+2018-04-16 15:11:23,520 - 【卖家错误处理】错误：登录过期
+2018-04-16 15:11:23,812 - ==========redis_token:764ac62a-f507-4b32-8cd7-d3f16c4726f0============
+2018-04-16 15:11:24,239 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:13:21,668 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:13:21,917 - 【登录校验】Cookie中查不到token
+2018-04-16 15:13:21,918 - 【卖家错误处理】错误：登录过期
+2018-04-16 15:13:22,176 - ==========redis_token:551aba00-c544-417a-a066-60cc4daa2ff2============
+2018-04-16 15:13:22,574 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:18:22,592 - No error handling configured for [com.yan.sell.service.WebSocket] and the following error occurred
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1250)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1190)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:72)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:171)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:151)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:148)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:54)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-16 15:18:22,593 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:20:55,450 - 【登录校验】Cookie中查不到token
+2018-04-16 15:20:55,450 - 【卖家错误处理】错误：登录过期
+2018-04-16 15:20:55,773 - ==========redis_token:e06e86f1-b3f3-4782-bb7e-dbbf3d2df755============
+2018-04-16 15:20:56,161 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:21:05,347 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:21:20,537 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:21:53,564 - 【websocket消息】 有新的连接，总数：2
+2018-04-16 15:22:17,287 - 【websocket消息】连接断开，总数：1
+2018-04-16 15:22:17,304 - 【登录校验】Cookie中查不到token
+2018-04-16 15:22:17,305 - 【卖家错误处理】错误：登录过期
+2018-04-16 15:22:17,693 - ==========redis_token:699e6216-231d-42b7-80ce-ac6a76a14b7e============
+2018-04-16 15:22:18,268 - 【websocket消息】 有新的连接，总数：2
+2018-04-16 15:26:20,543 - No error handling configured for [com.yan.sell.service.WebSocket] and the following error occurred
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1250)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1190)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:72)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:171)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:151)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:148)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:54)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-16 15:26:20,545 - 【websocket消息】连接断开，总数：1
+2018-04-16 15:27:18,271 - No error handling configured for [com.yan.sell.service.WebSocket] and the following error occurred
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1250)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1190)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:72)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:171)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:151)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:148)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:54)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-16 15:27:18,273 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:29:59,436 - 【登录校验】Cookie中查不到token
+2018-04-16 15:29:59,437 - 【卖家错误处理】错误：登录过期
+2018-04-16 15:29:59,811 - ==========redis_token:af444981-9442-41ec-a6c1-d8f2b9bfd8fa============
+2018-04-16 15:30:00,277 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:30:09,411 - 【websocket消息】连接断开，总数：0
+2018-04-16 15:30:09,814 - 【websocket消息】 有新的连接，总数：1
+2018-04-16 15:35:09,814 - No error handling configured for [com.yan.sell.service.WebSocket] and the following error occurred
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1250)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1190)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:72)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:171)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:151)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:148)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:54)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-16 15:35:09,815 - 【websocket消息】连接断开，总数：0

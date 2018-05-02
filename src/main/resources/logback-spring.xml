@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <appender name="consoleLog" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>
+                %d - %msg%n
+            </pattern>
+        </layout>
+    </appender>
+
+    <!--针对不同文件，采取不同样式-->
+    <appender name="fileInfoLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--配置ERROR以下的日志输出到此-->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <!--如果匹配为error就禁止-->
+            <onMatch>DENY</onMatch>
+            <!--不是error就接受-->
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>
+                %d - %msg%n
+            </pattern>
+        </encoder>
+        <!--滚动策略 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--路径-->
+            <fileNamePattern>/Javaworkspace/ideaProject/WxSell/log/info/sell.%d.log</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="fileErrorLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <encoder>
+            <pattern>
+                %d - %msg%n
+            </pattern>
+        </encoder>
+        <!--滚动策略 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--路径-->
+            <fileNamePattern>/Javaworkspace/ideaProject/WxSell/log/error/sell.%d.log</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+    <root level="error">
+        <appender-ref ref="consoleLog"></appender-ref>
+        <!--把自己配置的规则引用进来-->
+        <appender-ref ref="fileInfoLog"></appender-ref>
+        <appender-ref ref="fileErrorLog"></appender-ref>
+    </root>
+</configuration>
